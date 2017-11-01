@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="363.0" prefWidth="447.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dharshu.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <ListView fx:id="perlist" layoutX="14.0" layoutY="82.0" prefHeight="263.0" prefWidth="200.0" />
+      <TextField fx:id="searchname" layoutX="14.0" layoutY="57.0" prefHeight="25.0" prefWidth="200.0" text="" />
+      <TextField fx:id="pername" layoutX="284.0" layoutY="57.0" />
+      <TextField fx:id="perphone" layoutX="284.0" layoutY="125.0" />
+      <TextField fx:id="permail" layoutX="284.0" layoutY="201.0" />
+      <Button id="add1" layoutX="240.0" layoutY="305.0" mnemonicParsing="false" onAction="#addrec" text="ADD" />
+      <Button id="edit1" layoutX="313.0" layoutY="305.0" mnemonicParsing="false" onAction="#editrec" text="EDIT " />
+          <Button id="delete1" layoutX="380.0" layoutY="305.0" mnemonicParsing="false" onAction="#deleterec" text="DELETE" />
+            <Label layoutX="226.0" layoutY="61.0" text="NAME" />
+      <Label layoutX="219.0" layoutY="123.0" prefHeight="36.0" prefWidth="62.0" text="PHONE NO" />
+      <Label layoutX="226.0" layoutY="205.0" text="MAIL ID" />
+      <Label layoutX="12.0" layoutY="38.0" text="Search" />
+      <Label layoutX="112.0" layoutY="6.0" text="Address Book - Using Java FX" />
+    </children>
+</AnchorPane>
